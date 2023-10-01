@@ -1,0 +1,148 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+
+    min-height: 100%;  
+  background: #eee;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #222;
+  font-size: 14px;
+  line-height: 26px;
+  padding-bottom: 50px;
+}
+
+.container {
+  
+    max-width: 700px;   
+    background: #fff;
+    margin: 0px auto 0px; 
+    box-shadow: 1px 1px 2px #DAD7D7;
+    border-radius: 3px;  
+    padding: 40px;
+    margin-top: 50px;
+}
+
+/* Header Styles */
+.header {
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.header h1 {
+   
+    margin-bottom: 25px;
+}
+
+.subtitle {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Contact Styles */
+.contact p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contact a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.contact a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    border-bottom: 2px solid #7d8083;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.full-name {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  
+  .first-name {
+    font-weight: 700;
+  }
+  
+  .last-name {
+    font-weight: 300;
+  }
+
+.contact-info {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .email ,
+  .phone {
+    color: #999;
+    font-weight: 300;
+  } 
+  
+  .separator {
+    height: 10px;
+    display: inline-block;
+    border-left: 2px solid #999;
+    margin: 0px 10px;
+  }
+
+/* Skills Styles */
+ul {
+    list-style: none;
+    margin-left: 18px;
+    padding: 0;
+    /* margin-left: 20px; */
+    
+}
+
+ul li {
+    font-size: 17px;
+    min-height: 100%;  
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #222;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+/* Projects Styles */
+.projects p {
+    font-size: 18px;
+    margin: 10px 0;
+    line-height: 1.4;
+}
+
+.section__title {
+    letter-spacing: 2px;
+    color: #54AFE4;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
